@@ -54,13 +54,10 @@ function generatePassword() {
     printedPassword = printedPassword += getSpecialCharacters();
   }
 
-  console.log(printedPassword)
-
   var userPassword = "";
     
   for (var i = 0; i < length; i++) {
     userPassword = userPassword + printedPassword[Math.floor(Math.random() * printedPassword.length)];
-    console.log(userPassword);
   }
   return userPassword;
 }
