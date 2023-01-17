@@ -35,6 +35,34 @@ function generatePassword() {
   if (!confirmUpperCase && !confirmLowerCase && !confirmNumber && !confirmSpecialChar) {
     alert("Your password must have at least one of the options.");
   }
+
+  var printedPassword = "";
+    
+  if (confirmUpperCase) {
+    printedPassword = printedPassword += getUpperCase();
+  }
+
+  if (confirmLowerCase) {
+    printedPassword = printedPassword += getLowerCase();
+  }
+    
+  if (confirmNumber) {
+    printedPassword = printedPassword += getNumber();
+  }
+
+  if (confirmSpecialChar) {
+    printedPassword = printedPassword += getSpecialCharacters();
+  }
+
+  console.log(printedPassword)
+
+  var userPassword = "";
+    
+  for (var i = 0; i < length; i++) {
+    userPassword = userPassword + printedPassword[Math.floor(Math.random() * printedPassword.length)];
+    console.log(userPassword);
+  }
+  return userPassword;
 }
 
 // Write password to the #password input
