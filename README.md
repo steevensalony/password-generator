@@ -22,6 +22,7 @@ The main use of this is to generate a password based on the user's chosen parame
 Rutgers Bootcamp.
 https://www.w3schools.com/js/
 https://www.tutorialstonight.com/password-generator-in-javascript
+https://github.com/TiffanyCasey/Password-Generator/blob/master/script.js
 
 # License
 
