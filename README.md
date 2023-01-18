@@ -1,5 +1,7 @@
 # password-generator
 
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/108702715/213046736-f549a639-a8d5-478b-9d0d-680398a489b4.png)
+
 ## Description
 
 A program that generates random passwords based on user inputs
